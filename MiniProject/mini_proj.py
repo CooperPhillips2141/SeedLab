@@ -1,3 +1,14 @@
+# Cooper Phillips and Jamie Vendryes 
+# EENG 350 - Section B
+# Mini Project Assignment
+
+'''
+This is the Python code that will utilize the camera and LCD screen by using a Pi computer.
+The camera will be used to display video feed and to find the proper coordinates. Once found,
+the coordinated will be displayed on the LCD screen without any lag by using threading,
+then these coordinates will be sent to the Arduino for further use (wheel rotation).
+'''
+
 import threading
 import queue
 from time import sleep
