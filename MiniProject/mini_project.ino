@@ -1,11 +1,11 @@
 // Braden Guthrie and Noe Avila
 // EENG 350 - Section B
 // Mini Project Assignment
-/*
-This is the code for the Arduino section of the assignment that implements
-the integral control and rotation of the wheels. It will define initial setup of the machine,
-and receive the coordinates from the Pi to know where to move the wheels. 
-*/
+
+// This is the code for the Arduino section of the assignment that implements
+// the integral control and rotation of the wheels. It will define initial setup of the machine,
+// and receive the coordinates from the Pi to know where to move the wheels. 
+
 //include librairies
 
 //encoder
