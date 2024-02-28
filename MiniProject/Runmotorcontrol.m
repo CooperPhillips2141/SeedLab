@@ -1,4 +1,8 @@
-%this runs the motor control simulink file given data from your motors
+% Braden Guthrie and Noe Avila
+% EENG 350 - Section B
+% Mini Project Assignment
+% This file runs the motor control simulink file given data from the motors.
+% It will output graphs of velocity and voltage of the motors.
 
 close all;
 
