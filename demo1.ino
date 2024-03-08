@@ -164,7 +164,7 @@ current_time = (float)(last_time_ms - start_time_ms)/1000;
   //get velocity of motors dx/dt
   delta_time = float(current_time - prev_time)/1000;
   delta_pos[0] = prev_pos[0] - actual_pos[0];
-  delta_pos[1] = prev_pos[1] - actual_pos[0];
+  delta_pos[1] = prev_pos[1] - actual_pos[1];
 
   actual_speed[0] = getVelocity(delta_time, delta_pos[0]);
   actual_speed[1] = getVelocity(delta_time, delta_pos[1]);
